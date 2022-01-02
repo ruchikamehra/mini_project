@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration:none;
+    font-family:sans-serif;
+
+}
+/* <a class="btn btn-danger" href="#">
+<i class="fa fa-trash-o fa-lg"></i> Delete
+</a> */
+.bar1{
+    width:345px;
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    background:linear-gradient(#1dc7a2,hsl(0, 0%, 90%));
+
+}
+.main{
+margin-left:345px;
+
+}
+
+.bar1_logo{
+    height:90px;
+    padding:1rem 0rem 1rem 2rem;
+
+}
+.mybrary{
+    color:#482673;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 2px;
+    float: left;
+    padding-top:2px;
+    font-weight: 100;
+}
+
+.bar1_menu li{
+    width:100%;
+    margin-bottom:1.3rem;
+    padding-left:1rem;
+ 
+}
+
+.bar1_menu a{
+    
+    padding-left:1rem;
+   display:block;
+   color:#fff;
+   font-size:1.1rem;
+   
+
+}
+.bar1_menu a span:first_child{
+font-size:1.5rem;
+padding-right:1.5rem;
+
+}
+
+.bar1_menu a{
+    height : 55px;
+    width : 300px;
+    font-size: 15px;
+    text-align: center; 
+    background:hsl(0, 0%, 90%) ;
+    margin-bottom:1rem;
+    padding-top:1rem;
+    margin-top: 1rem;
+    padding-bottom:1rem;
+    padding-right:3rem;
+    margin-left:4rem;
+    color : black;
+   border-radius:25px 0px 0px 25px;
+  
+   
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:1rem;
+background:linear-gradient(#1dc7a2,hsl(0, 0%, 90%));
+
+
+
+}
+header h1{
+    font-size:1.5rem;
+}
+
+img{
+   width : 1178px;
+   height : 700px;
+   object-fit:cover;
+}
+
+
+
+
+.box{
+  
+        width: 300px;
+        height : 350px;
+        background :linear-gradient(rgba(63, 77, 66, 0.5), rgba(79, 88, 85, 0.5) ) ;
+        position: absolute;
+        top: 180px;
+        left: 550px;
+        border-radius : 10px;
+        padding : 25px;
+    
+}
+
+.box1{
+  
+    width: 300px;
+    height : 350px;
+    background :linear-gradient(rgba(63, 77, 66, 0.5), rgba(79, 88, 85, 0.5) ) ;
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    border-radius : 10px;
+    padding : 25px;
+
+}
+.book_img{
+    width: 150px;
+    height:150px;
+}
+.student_img{
+  
+        width: 150px;
+        height:150px;
+}
+.data {
+    
+    text-align: center;
+    font-size:20px;
+    text-decoration: none;
+    font-family:sans-serif;
+    color:white;
+    
+}
